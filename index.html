@@ -109,11 +109,11 @@
                     <div class="design-center">
                         <div id="about-us">
                             <ul id="about-menu">
-                                <li id="menu1" class="menu active">Кто мы и для кого?</li>
+                                <li id="menu1" class="menu active">О нас</li>
                                 <li id="menu2" class="menu">Геймерам</li>
                                 <li id="menu3" class="menu">Инвесторам</li>
                                 <li id="menu4" class="menu">Криэйторам</li>
-                                <li id="menu5" class="menu">Гейм-разработчикам</li>
+                                <li id="menu5" class="menu">Разработчикам</li>
                             </ul>
                             <div id="about-content">
                                 <div class="menu1 img-desc active">
@@ -327,6 +327,24 @@
         }
         .ul-buy li {
             padding: 13px 25px;
+        }
+        #about-menu li {
+            border-right: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        li p {
+            font-size: 15px;
+        }
+    }
+    
+    @media screen and (max-width: 380px) {
+        li p {
+            width: 46%;
+        }
+        h3 {
+            font-size: 35px;
+        }
+        #about-menu li {
+            font-size: 11px;
         }
     }
 </style>
